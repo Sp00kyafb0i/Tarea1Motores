@@ -418,35 +418,35 @@ int main()
     Nothofagus::Controller controller;
 
     controller.registerAction({ Nothofagus::Key::ESCAPE, Nothofagus::DiscreteTrigger::Press }, [&]() { canvas.close(); });
-    controller.registerAction({ Nothofagus::Key::A, Nothofagus::DiscreteTrigger::Press }, [&]()
+    controller.registerAction({ Nothofagus::Key::LEFT, Nothofagus::DiscreteTrigger::Press }, [&]()
         {
             leftKeyPressed = true;
         });
-    controller.registerAction({ Nothofagus::Key::A, Nothofagus::DiscreteTrigger::Release }, [&]()
+    controller.registerAction({ Nothofagus::Key::LEFT, Nothofagus::DiscreteTrigger::Release }, [&]()
         {
             leftKeyPressed = false;
         });
-    controller.registerAction({ Nothofagus::Key::D, Nothofagus::DiscreteTrigger::Press }, [&]()
+    controller.registerAction({ Nothofagus::Key::RIGHT, Nothofagus::DiscreteTrigger::Press }, [&]()
         {
             rightKeyPressed = true;
         });
-    controller.registerAction({ Nothofagus::Key::D, Nothofagus::DiscreteTrigger::Release }, [&]()
+    controller.registerAction({ Nothofagus::Key::RIGHT, Nothofagus::DiscreteTrigger::Release }, [&]()
         {
             rightKeyPressed = false;
         });
-    controller.registerAction({ Nothofagus::Key::S, Nothofagus::DiscreteTrigger::Press }, [&]()
+    controller.registerAction({ Nothofagus::Key::DOWN, Nothofagus::DiscreteTrigger::Press }, [&]()
         {
             downKeyPressed = true;
         });
-    controller.registerAction({ Nothofagus::Key::S, Nothofagus::DiscreteTrigger::Release }, [&]()
+    controller.registerAction({ Nothofagus::Key::DOWN, Nothofagus::DiscreteTrigger::Release }, [&]()
         {
             downKeyPressed = false;
         });
-    controller.registerAction({ Nothofagus::Key::W, Nothofagus::DiscreteTrigger::Press }, [&]()
+    controller.registerAction({ Nothofagus::Key::UP, Nothofagus::DiscreteTrigger::Press }, [&]()
         {
             upKeyPressed = true;
         });
-    controller.registerAction({ Nothofagus::Key::W, Nothofagus::DiscreteTrigger::Release }, [&]()
+    controller.registerAction({ Nothofagus::Key::UP, Nothofagus::DiscreteTrigger::Release }, [&]()
         {
             upKeyPressed = false;
         });
