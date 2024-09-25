@@ -319,7 +319,7 @@ int main()
                         soundPlayer2.play();
                         cooldown = maxCd;
                         style += 20;
-                        speedy += 0.01;
+                        speedy += 0.05;
 
                     }
                 }
