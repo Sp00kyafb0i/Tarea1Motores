@@ -1,3 +1,6 @@
 [submodule "external/rusty_audio"]
 	path = external/rusty_audio
 	url = https://github.com/dantros/rusty_audio.git
+[submodule "external/nothofagus"]
+	path = external/nothofagus
+	url = https://github.com/dantros/nothofagus.git
